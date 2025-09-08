@@ -11,6 +11,9 @@ public class StoreContext : DbContext
 
     public DbSet<Product> Products { get; set; }
 
+    //public DbSet<string> ProductBrand { get; set; }
+    //public DbSet<string> Types { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
